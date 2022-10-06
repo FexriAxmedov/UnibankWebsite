@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300&family=Mukta:wght@300&display=swap");
+$font: "Mukta", sans-serif;
+$main-color: #ff6400;
+$background-icon: #323232;
+$secondFont: "Inter Tight", sans-serif, "Mukta", sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// .dark{
+//   background-color: black;
+
+//   .firstHeader .header{
+//     background-color: transparent;
+
+//     }
+
+//     .linkler ul li a{
+//       color: white;
+//     }
+
+//     .firstHeader .header .rightside div a{
+//       color: white;
+//       background-color: transparent;
+//     }
+
+// }
+.firstHeader {
+  box-shadow: 20px -16px 32px rgba(0, 0, 0, 0.247);
+  background: #f5f5f598;
+  height: 55px;
+  .header {
+    display: flex;
+    justify-content: center;
+  }
+}
+.linkler {
+  display: flex;
+  font-family: $font;
+  position: relative;
+  margin-top: 12px;
+  margin-right: 120px;
+  ul {
+    display: flex;
+    list-style: none;
+    li a {
+      position: relative;
+      font-size: 14px;
+      padding: 0 12px;
+      text-decoration: none;
+      color: rgba(0, 0, 0, 0.644);
+    }
+  }
+}
+.rightside {
+  display: flex;
+}
+
+.lang {
+  width: 75%;
+  display: flex;
+  height: 34px;
+  a {
+    font-family: $font;
+    padding: 2px 10px !important;
+    background-color: white;
+    color: black;
+    font-size: 15px !important;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.027);
+  }
+}
+.logo {
+  img {
+    margin-right: 18px;
+    width: 27px;
+    height: 28px;
+  }
+}
+.buttonlar {
+  display: flex;
+}
+.searchbar {
+  padding: 0px;
+  width: 40px;
+  height: 34px;
+  border-radius: 5px;
+  background-color: white;
+  ul {
+    position: relative;
+    margin-right: 80px;
+    list-style: none;
+  }
+  ul li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.685);
+  }
+  i {
+    position: relative;
+    margin-top: 8px;
+    margin-left: 9px;
+  }
+}
+.buttonlar {
+  font-family: $font;
+  width: 120px;
+  height: 34px;
+  font-size: 12px;
+  #btn-1 {
+    border: 1px solid #ff6400;
+    text-decoration: none;
+    color: #ff6400;
+    border-radius: 5px;
+    padding: 5px 15px;
+  }
+  #btn-2 {
+    border: 1px solid rgba(0, 0, 0, 0.027);
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    padding: 5px 15px;
+  }
+}
+.moonicon {
+  background-color: $background-icon;
+  color: white;
+  width: 72px;
+  height: 34px;
+  border-radius: 5px;
+  i {
+    position: relative;
+    margin-left: 10px;
+    margin-top: 8px;
+  }
+}
+.dark {
+  .moonicon {
+    background-color: white;
+    color: black;
+  }
+}
+.rightside {
+  position: relative;
+  margin-top: 10px;
+  margin-left: 42px;
+}
+.lang {
+  position: relative;
+  margin-left: 42px;
+}
+.buttonlar {
+  position: relative;
+  margin-right: 12px;
+}
+.items {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: 24px;
+  .links {
+    position: relative;
+    margin-top: 9px;
+    margin-right: 210px;
+    ul {
+      display: flex;
+      list-style: none;
+      li a {
+        font-family: $secondFont;
+        letter-spacing: 0.6px;
+        text-decoration: none;
+        color: black;
+        font-size: 19px;
+        font-weight: bolder;
+        padding: 0 12px;
+      }
+    }
+  }
+  .buttons {
+    display: flex;
+    position: relative;
+    a {
+      font-family: $secondFont;
+      text-decoration: none;
+      color: black;
+      font-weight: 800;
+    }
+    i {
+      color: #ff6400;
+      position: relative;
+      margin-right: 4px;
+    }
+  }
+  #fs {
+    border: 1px solid rgba(0, 0, 0, 0.164);
+    border-radius: 20px;
+    padding: 9px 17px;
+    margin-right: 8px;
+  }
+  #ss {
+    border: 1px solid rgba(0, 0, 0, 0.164);
+    border-radius: 20px;
+    padding: 10px 18px;
+  }
+}
+.item1{
+  width: 280px;
+  height: 290px;
+  background-color: rgba(245, 245, 245, 0.726);
+  border-radius: 12px;
+  .itemsInside{
+    display: block;
+    position: relative;
+    margin-left: 74px;
+    .fp{
+      padding-top: 20px;
+      padding-bottom: 18px;
+      font-size:20px;
+      font-family: $secondFont;
+      font-weight: 600;
+    }
+    .sp{
+      color: #ff6400;
+      font-family: $secondFont;
+      font-weight: 900;
+      font-size: 48px;
+    }
+    .tp{
+      font-family: $secondFont;
+      font-weight: 600;
+      padding-bottom: 52px;
+      font-size: 16px;
+      position: relative;
+      margin-top: 12px;
+      margin-left: 4px;
+    }
+    a{
+      position: relative;
+      text-decoration: none;
+      color: white;
+      background-color: #ff6400;
+      padding: 18px 34px;
+      border-radius: 52px;
+      font-family: $secondFont;
+    }
+  }
+}
+.sp{
+  position: relative;
+  margin-left: 18px;
+}
